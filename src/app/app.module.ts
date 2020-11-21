@@ -9,11 +9,15 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
 import { MatSliderModule } from '@angular/material';
+import { NavbarComponent } from './shared-components/navbar/navbar.component';
+import { RedeemPointsPageComponent } from './pages/redeem-points-page/redeem-points-page.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    RedeemPointsPageComponent
   ],
   imports: [
     BrowserModule,
