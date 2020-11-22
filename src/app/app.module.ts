@@ -8,9 +8,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
-import { MatSliderModule } from '@angular/material';
+import { ErrorStateMatcher, MatInputModule, MatSliderModule, ShowOnDirtyErrorStateMatcher } from '@angular/material';
 import { NavbarComponent } from './shared-components/navbar/navbar.component';
 import { RedeemPointsPageComponent } from './pages/redeem-points-page/redeem-points-page.component';
+import { FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FirebaseService } from './services/firebase.service';
 
 
 @NgModule({
@@ -25,11 +27,18 @@ import { RedeemPointsPageComponent } from './pages/redeem-points-page/redeem-poi
     BrowserAnimationsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
+    FormsModule,
+    ReactiveFormsModule,
 
-    // for material testing adding mat slider
+    // Angular Material Modules
     MatSliderModule,
+    MatInputModule
   ],
-  providers: [],
+  providers: [
+    FormBuilder,
+    { provide: ErrorStateMatcher, useClass: ShowOnDirtyErrorStateMatcher },
+    FirebaseService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
