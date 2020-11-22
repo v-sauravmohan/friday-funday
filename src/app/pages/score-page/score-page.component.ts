@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FirebaseService, Group } from 'src/app/services/firebase.service';
 
 @Component({
   selector: 'app-score-page',
@@ -7,7 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ScorePageComponent implements OnInit {
 
-  constructor() { }
+  groupData: Group[] = [];
+
+  constructor(private firebaseService: FirebaseService) {
+    firebaseService.retereveGroups().then((groupData) => {
+      this.groupData = groupData;
+     });
+   }
 
   ngOnInit() {
   }
