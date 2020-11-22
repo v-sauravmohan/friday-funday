@@ -1,21 +1,38 @@
-<div>
-    <div class="container redeem-section">
-        <div class="redeem-info">
-            <h1 class="row"class="info-title"> Redeem Points</h1>
-            <p  class="row"class="info-description"> Got too many keys with you? paste'em  in their respective boxes </p>
-        </div>
-        <form>
-            <div class="form-group">
-              <label for="groupKey">Secret Group Key</label>
-              <input type="email" class="form-control" id="groupKey"placeholder="Enter Group Key">
-              <small id="emailHelp" class="form-text text-muted">vere group key ittu alambakkaruth.</small>
-            </div>
-            <div class="form-group">
-              <label for="pointsKey">Points Key</label>
-              <input type="text" class="form-control" id="pointsKey" placeholder="Enter Points Key">
-            </div>
-            <button type="submit" class="btn btn-primary">Redeem</button>
-          </form>
+<div class="container">
+    <h1>Redeem Points</h1>
+    <p>Hi there, hope you are having a wonderful time. You are I guess, cause you are
+        here to redeem points. in that
+        case, you can redeem points for your group by typing your <strong>Secret Group Key</strong> and the
+        <strong>Points Key</strong> provided by the
+        game organizer. Click the redeem button at last. You will be greeted with a congratulations Message if the point
+        were credited to your group, if not, please try again one more time and contact the core team. A Point Key can
+        only be redeemed once. Ensure that the Secret group key and Points key are typed in properly.</p>
+    <div class="row align-items-center extra-padding" *ngIf="!keyRedeemStatus.wasRedeemSucess">
+        <ng-container class="form col" [formGroup]="form">
+            <mat-form-field class="full-width">
+                <mat-label>Secret group key</mat-label>
+                <input matInput type="text" formControlName="secertGroupKey">
+                <mat-error *ngIf="secertGroupKeyControl.hasError('required')">
+                    Secret group key is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
 
+            <mat-form-field class="full-width">
+                <mat-label>Points key</mat-label>
+                <input matInput type="text" formControlName="pointsKey">
+                <mat-error *ngIf="pointsKeyControl.hasError('required')">
+                    Points key is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <button type="button" class="btn btn-primary" [disabled]="!form.valid"
+                (click)="redeemKeys()">Redeem</button>
+        </ng-container>
+    </div>
+    <div class="container" *ngIf="keyRedeemStatus.wasRedeemSucess">
+        <h1 class="row justify-content-center">Congratulations</h1>
+        <h2 class="row justify-content-center">Points Key was redeemed successfully</h2>
+        <h1 class="row justify-content-center">Key Redeemed - {{keyRedeemStatus.pointsKey}}</h1>
+        <h1 class="row justify-content-center">Awarded to - {{keyRedeemStatus.groupName}}</h1>
+        <h1 class="row justify-content-center">Points - +{{keyRedeemStatus.points}}</h1>
     </div>
 </div>

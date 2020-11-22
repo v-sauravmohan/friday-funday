@@ -1,6 +1,19 @@
-.redeem-section {
-    padding-top:15%;
+.form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
 }
-.key-title {
-    font-weight: bolder;
+
+.full-width {
+  width: 100%;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+.extra-padding {
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
