@@ -11,13 +11,17 @@ import { environment } from '../environments/environment';
 import { MatSliderModule } from '@angular/material';
 import { NavbarComponent } from './shared-components/navbar/navbar.component';
 import { RedeemPointsPageComponent } from './pages/redeem-points-page/redeem-points-page.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ScorePageComponent } from './pages/score-page/score-page.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    RedeemPointsPageComponent
+    RedeemPointsPageComponent,
+    HomeComponent,
+    ScorePageComponent
   ],
   imports: [
     BrowserModule,
