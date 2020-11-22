@@ -14,12 +14,17 @@ import { RedeemPointsPageComponent } from './pages/redeem-points-page/redeem-poi
 import { FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FirebaseService } from './services/firebase.service';
 
+import { HomeComponent } from './pages/home/home.component';
+import { ScorePageComponent } from './pages/score-page/score-page.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    RedeemPointsPageComponent
+    RedeemPointsPageComponent,
+    HomeComponent,
+    ScorePageComponent
   ],
   imports: [
     BrowserModule,
