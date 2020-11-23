@@ -1,0 +1,20 @@
+.card {
+    margin: 20px;
+}
+.image {
+    width: -webkit-fill-available;
+    border-bottom-left-radius: ;
+}
+.btn {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.card-body {
+     align-items: center;
+}
+.card,.image,.btn {
+    border-bottom-left-radius: 98px;
+}
+.card-title {
+    text-align: center;
+}
