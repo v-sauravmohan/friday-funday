@@ -1,9 +1,9 @@
 .card {
     margin: 20px;
+    box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .image {
     width: -webkit-fill-available;
-    border-bottom-left-radius: ;
 }
 .btn {
     font-weight: bolder;
@@ -11,10 +11,7 @@
 }
 .card-body {
      align-items: center;
-}
-.card,.image,.btn {
-    border-bottom-left-radius: 98px;
-}
+}   
 .card-title {
     text-align: center;
 }
