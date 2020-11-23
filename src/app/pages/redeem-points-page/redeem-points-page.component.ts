@@ -9,18 +9,11 @@ import {
   Validators,
 } from '@angular/forms';
 import { ErrorStateMatcher } from '@angular/material/core';
-import { FirebaseService } from 'src/app/services/firebase.service';
+import { FirebaseService, RedeemStatus } from 'src/app/services/firebase.service';
 
 export interface RedeemForm {
   secertGroupKey: string;
   pointsKey: string;
-}
-
-export interface RedeemStatus{
-  wasRedeemSucess: boolean;
-  pointsKey: string;
-  groupName: string;
-  points: number;
 }
 
 /** Error when invalid control is dirty, touched, or submitted. */
