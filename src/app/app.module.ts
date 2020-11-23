@@ -16,6 +16,7 @@ import { FirebaseService } from './services/firebase.service';
 
 import { HomeComponent } from './pages/home/home.component';
 import { ScorePageComponent } from './pages/score-page/score-page.component';
+import { ScoreCardComponent } from './shared-components/score-card/score-card.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { ScorePageComponent } from './pages/score-page/score-page.component';
     NavbarComponent,
     RedeemPointsPageComponent,
     HomeComponent,
-    ScorePageComponent
+    ScorePageComponent,
+    ScoreCardComponent
   ],
   imports: [
     BrowserModule,

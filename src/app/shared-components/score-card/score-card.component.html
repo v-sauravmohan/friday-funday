@@ -1,0 +1,15 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6" style="width: 18rem;" *ngFor="let card of cards">
+            <div class="card">
+                <img class="card-img-top image" [src]=card.image alt="Card image cap">
+                <div class="card-body">
+                    <h1 class="card-title">{{card.group_name}}</h1>
+                    <p class="card-text">Redeems: {{card.no_of_redeems}}</p>
+                </div>
+                    <a href="/redeem-points" class="btn btn-primary">{{card.points_scored}} points</a>
+            </div>
+        </div>
+    </div>
+  </div>
