@@ -8,6 +8,7 @@ export interface Group {
   no_of_redeems: number;
   points_scored: number;
   secret_group_id: string;
+  image: string;
 }
 
 export interface PointKey {

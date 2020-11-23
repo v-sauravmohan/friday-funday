@@ -1,0 +1,17 @@
+.card {
+    margin: 20px;
+    box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image {
+    width: -webkit-fill-available;
+}
+.btn {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.card-body {
+     align-items: center;
+}   
+.card-title {
+    text-align: center;
+}
