@@ -17,6 +17,7 @@ import { FirebaseService } from './services/firebase.service';
 import { HomeComponent } from './pages/home/home.component';
 import { ScorePageComponent } from './pages/score-page/score-page.component';
 import { ScoreCardComponent } from './shared-components/score-card/score-card.component';
+import { CarouselComponent } from './shared-components/carousel/carousel.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { ScoreCardComponent } from './shared-components/score-card/score-card.co
     RedeemPointsPageComponent,
     HomeComponent,
     ScorePageComponent,
-    ScoreCardComponent
+    ScoreCardComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,

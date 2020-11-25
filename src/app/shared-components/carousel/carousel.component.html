@@ -1,0 +1,12 @@
+<div class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item" *ngFor="let itemSubSet of itemSet; let i = index" [ngClass]="{'active': i == 1}" >
+            <div class="row align-center">
+                <div *ngFor="let item of itemSubSet" class="col">
+                    <img class="avatar" [src]="item?.image"/>
+                    <h4>{{item?.name}}</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

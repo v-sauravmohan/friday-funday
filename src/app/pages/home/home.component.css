@@ -1,22 +1,21 @@
-.info {
-    padding-top: 15%;
-    left: 4%;
+.floating-card {
+  background-color: #f8f8f8;
+  left: 50%;
+  top: 50%;
+  border-radius: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.container{
-    background-color: #f8f8f8;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 25px;
-    padding: 10px;
-    box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-    
-  }
-.image {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: unset;
+.empty-space {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.extra-padding {
+  padding-bottom: 20px;
 }
