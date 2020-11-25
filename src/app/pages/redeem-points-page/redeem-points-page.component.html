@@ -1,6 +1,6 @@
 <div class="container">
     <h1>Redeem Points</h1>
-    <p>Hi there, hope you are having a wonderful time. You are I guess, cause you are
+    <p class="text-justify">Hi there, hope you are having a wonderful time. You are I guess, cause you are
         here to redeem points. in that
         case, you can redeem points for your group by typing your <strong>Secret Group Key</strong> and the
         <strong>Points Key</strong> provided by the
@@ -24,7 +24,7 @@
                     Points key is <strong>required</strong>
                 </mat-error>
             </mat-form-field>
-            <button type="button" class="btn btn-primary" [disabled]="!form.valid"
+            <button type="button" class="btn btn-primary font-weight-bold" [disabled]="!form.valid"
                 (click)="redeemKeys()">Redeem</button>
         </ng-container>
     </div>

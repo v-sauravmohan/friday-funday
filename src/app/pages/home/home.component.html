@@ -21,18 +21,7 @@
         <div class="row">
             <h1 class="mx-auto extra-padding">Our Sponsors</h1>
         </div>
-        <div class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item" *ngFor="let sponsorSet of sponsors; let i = index" [ngClass]="{'active': i == 1}" >
-                    <div class="row align-center">
-                        <div *ngFor="let sponsor of sponsorSet" class="col">
-                            <img class="avatar" [src]="sponsor?.image"/>
-                            <h4>{{sponsor?.name}}</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <app-carousel [itemSet]="sponsors"></app-carousel>
     </div>
     </div>
     
