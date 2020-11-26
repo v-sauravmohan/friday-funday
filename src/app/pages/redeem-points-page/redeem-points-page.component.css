@@ -23,7 +23,8 @@
     background: #fff
     url("src/assets/redeem-bg.svg");
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    margin-top: 20px;
 }
 
 .extra-padding {

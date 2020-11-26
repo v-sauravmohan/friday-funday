@@ -128,7 +128,11 @@ export class FirebaseService implements OnDestroy {
                   this.updateFirestoreValue(
                     'pointkeys',
                     pointKeyObject.doc_id,
-                    { redeemed: true });
+                    {
+                      redeemed: true,
+                      redeemedby: groupObject.group_name
+                    }
+                  );
                   // Update Groups collection on DB
                   this.updateFirestoreValue(
                     'groups',
