@@ -15,73 +15,73 @@ export class HomeComponent implements OnInit {
     [
       {
         name: 'Geogy',
-        image: '/assets/sponsors/Geogy.png'
+        image: '/assets/Geogy.png'
       },
       {
         name: 'Sreejith',
-        image: '/assets/sponsors/Sreejith.png'
+        image: '/assets/Sreejith.png'
       },
       {
         name: 'Manoj',
-        image: '/assets/sponsors/manoj.png'
+        image: '/assets/manoj.png'
       },
       {
         name: 'Nithya',
-        image: '/assets/sponsors/Nithya.png'
+        image: '/assets/Nithya.png'
       }
     ],
     [
       {
         name: 'Riya',
-        image: '/assets/sponsors/Riya.png'
+        image: '/assets/Riya.png'
       },
       {
         name: 'Amina',
-        image: '/assets/sponsors/amina.png'
+        image: '/assets/amina.png'
       },
       {
         name: 'Aneeka',
-        image: '/assets/sponsors/Aneeka.png'
+        image: '/assets/Aneeka.png'
       },
       {
         name: 'Gokul',
-        image: '/assets/sponsors/Gokul.png'
+        image: '/assets/Gokul.png'
       }
     ],
     [
       {
         name: 'Manu',
-        image: '/assets/sponsors/Manu.png'
+        image: '/assets/Manu.png'
       },
       {
         name: 'Vineesh',
-        image: '/assets/sponsors/Vineesh.png'
+        image: '/assets/Vineesh.png'
       },
       {
         name: 'Ramees',
-        image: '/assets/sponsors/Ramees.png'
+        image: '/assets/Ramees.png'
       },
       {
         name: 'Sujesh',
-        image: '/assets/sponsors/Sujesh.png'
+        image: '/assets/Sujesh.png'
       }
     ],
     [
       {
         name: 'Rahul',
-        image: '/assets/sponsors/Rahul.png'
+        image: '/assets/Rahul.png'
       },
       {
         name: 'Swathy',
-        image: '/assets/sponsors/Swathy.png'
+        image: '/assets/Swathy.png'
       },
       {
         name: 'Saurav',
-        image: '/assets/sponsors/Saurav.png'
+        image: '/assets/Saurav.png'
       },
       {
         name: 'Jessin',
-        image: '/assets/sponsors/Jessin.png'
+        image: '/assets/Jessin.png'
       }
     ]
   ];
