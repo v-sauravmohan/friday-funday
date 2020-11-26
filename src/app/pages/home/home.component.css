@@ -14,14 +14,18 @@
     margin-bottom: 22px;
     box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background: #fff
-    url("src/assets/home-card-bg.png");
-    
+    url("src/assets/home-card-bg.svg");
     background-size: cover;
     background-repeat: no-repeat
 }
 .title {
     font-family: kanit;
     font-weight: lighter;
+    color: brown;
+    border:2px;
+    text-shadow: 2px 2px 5px black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffde59;
 }
 .desc {
     font-family: Nunito;
@@ -36,6 +40,7 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   .extra-padding {
@@ -57,11 +62,9 @@
     display:inline-block;
   }
   button {
-    
     display: block;
     text-decoration: none;
     background-color: #ff8041;
-    color: #ffde59;
     padding: 12px;
     border: none;
     border-radius: 25px;
@@ -72,4 +75,7 @@
     transition: 0.2s;
     border-width: 10px;
     border-color: yellow;
+    color: #ffde59;
+    text-shadow: 2px 2px 5px brown;
+    box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

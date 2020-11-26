@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&family=Nunito&display=swap');
+
 .form {
   min-width: 150px;
   max-width: 500px;
@@ -17,10 +20,35 @@
     transform: translate(-50%, -50%);
     border-radius: 25px;
     box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #fff
+    url("src/assets/redeem-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat
 }
 
 .extra-padding {
   padding-top: 5%;
   padding-left: 20%;
   padding-right: 20%;
+}
+.button {
+    display: block;
+    text-decoration: none;
+    background-color: #ff8041;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-family: kanit;
+    font-size: 45px;
+    font-weight: 700;
+    min-width: 200px;
+    transition: 0.2s;
+    border-width: 10px;
+    border-color: yellow;
+    color: #ffde59;
+    text-shadow: 2px 2px 5px brown;
+    box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button-container{
+    align-items: center;
 }

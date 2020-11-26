@@ -8,6 +8,25 @@
 a,button {
     transition: transform .2s;
 }
+.button{
+    transition: transform .2s;
+    display: block;
+    text-decoration: none;
+    background-color: #ff8041;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-family: kanit;
+    font-size: 25px;
+    font-weight: 700;
+    min-width: 200px;
+    transition: 0.2s;
+    border-width: 10px;
+    border-color: yellow;
+    color: #ffde59;
+    text-shadow: 2px 2px 5px brown;
+    box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 a:hover,button:hover {
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
