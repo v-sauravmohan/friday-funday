@@ -15,66 +15,74 @@ export class HomeComponent implements OnInit {
     [
       {
         name: 'Geogy',
-        image: 'https://www.w3schools.com/howto/img_avatar.png'
+        image: '/assets/sponsors/Geogy.png'
       },
       {
         name: 'Sreejith',
-        image: 'https://www.w3schools.com/howto/img_avatar.png'
+        image: '/assets/sponsors/Sreejith.png'
       },
       {
         name: 'Manoj',
-        image: 'https://www.w3schools.com/howto/img_avatar.png'
+        image: '/assets/sponsors/manoj.png'
       },
       {
         name: 'Nithya',
-        image: 'https://www.w3schools.com/howto/img_avatar.png'
+        image: '/assets/sponsors/Nithya.png'
       }
     ],
     [
       {
         name: 'Riya',
-        image: 'https://www.w3schools.com/howto/img_avatar.png'
+        image: '/assets/sponsors/Riya.png'
       },
       {
         name: 'Amina',
-        image: 'https://www.w3schools.com/howto/img_avatar.png'
+        image: '/assets/sponsors/amina.png'
       },
       {
         name: 'Aneeka',
-        image: 'https://www.w3schools.com/howto/img_avatar.png'
+        image: '/assets/sponsors/Aneeka.png'
       },
       {
         name: 'Gokul',
-        image: 'https://www.w3schools.com/howto/img_avatar.png'
+        image: '/assets/sponsors/Gokul.png'
       }
     ],
     [
       {
         name: 'Manu',
-        image: 'https://www.w3schools.com/howto/img_avatar.png'
+        image: '/assets/sponsors/Manu.png'
       },
       {
         name: 'Vineesh',
-        image: 'https://www.w3schools.com/howto/img_avatar.png'
+        image: '/assets/sponsors/Vineesh.png'
       },
       {
         name: 'Ramees',
-        image: 'https://www.w3schools.com/howto/img_avatar.png'
+        image: '/assets/sponsors/Ramees.png'
       },
       {
         name: 'Sujesh',
-        image: 'https://www.w3schools.com/howto/img_avatar.png'
+        image: '/assets/sponsors/Sujesh.png'
       }
     ],
     [
       {
         name: 'Rahul',
-        image: 'https://www.w3schools.com/howto/img_avatar.png'
+        image: '/assets/sponsors/Rahul.png'
+      },
+      {
+        name: 'Swathy',
+        image: '/assets/sponsors/Swathy.png'
       },
       {
         name: 'Saurav',
-        image: 'https://www.w3schools.com/howto/img_avatar.png'
+        image: '/assets/sponsors/Saurav.png'
       },
+      {
+        name: 'Jessin',
+        image: '/assets/sponsors/Jessin.png'
+      }
     ]
   ];
 
