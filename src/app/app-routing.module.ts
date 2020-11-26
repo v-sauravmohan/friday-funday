@@ -7,6 +7,10 @@ import { ScorePageComponent } from './pages/score-page/score-page.component';
 
 const routes: Routes = [
   {
+    path: 'home',
+    component: HomeComponent,
+  },
+  {
     path: 'view-scores',
     component: ScorePageComponent,
   },
@@ -16,9 +20,8 @@ const routes: Routes = [
   },
   {
     path: '**',
-    component: HomeComponent
-  }
-];
+    redirectTo: 'home'
+  }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
