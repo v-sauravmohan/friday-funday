@@ -15,73 +15,73 @@ export class HomeComponent implements OnInit {
     [
       {
         name: 'Geogy',
-        image: '/assets/Geogy.png'
+        image: 'assets/Geogy.png'
       },
       {
         name: 'Sreejith',
-        image: '/assets/Sreejith.png'
+        image: 'assets/Sreejith.png'
       },
       {
         name: 'Manoj',
-        image: '/assets/manoj.png'
+        image: 'assets/manoj.png'
       },
       {
         name: 'Nithya',
-        image: '/assets/Nithya.png'
+        image: 'assets/Nithya.png'
       }
     ],
     [
       {
         name: 'Riya',
-        image: '/assets/Riya.png'
+        image: 'assets/Riya.png'
       },
       {
         name: 'Amina',
-        image: '/assets/amina.png'
+        image: 'assets/amina.png'
       },
       {
         name: 'Aneeka',
-        image: '/assets/Aneeka.png'
+        image: 'assets/Aneeka.png'
       },
       {
         name: 'Gokul',
-        image: '/assets/Gokul.png'
+        image: 'assets/Gokul.png'
       }
     ],
     [
       {
         name: 'Manu',
-        image: '/assets/Manu.png'
+        image: 'assets/Manu.png'
       },
       {
         name: 'Vineesh',
-        image: '/assets/Vineesh.png'
+        image: 'assets/Vineesh.png'
       },
       {
         name: 'Ramees',
-        image: '/assets/Ramees.png'
+        image: 'assets/Ramees.png'
       },
       {
         name: 'Sujesh',
-        image: '/assets/Sujesh.png'
+        image: 'assets/Sujesh.png'
       }
     ],
     [
       {
         name: 'Rahul',
-        image: '/assets/Rahul.png'
+        image: 'assets/Rahul.png'
       },
       {
         name: 'Swathy',
-        image: '/assets/Swathy.png'
+        image: 'assets/Swathy.png'
       },
       {
         name: 'Saurav',
-        image: '/assets/Saurav.png'
+        image: 'assets/Saurav.png'
       },
       {
         name: 'Jessin',
-        image: '/assets/Jessin.png'
+        image: 'assets/Jessin.png'
       }
     ]
   ];
