@@ -15,73 +15,73 @@ export class HomeComponent implements OnInit {
     [
       {
         name: 'Geogy',
-        image: 'assets/Geogy.png'
+        image: 'assets/sponsors/Geogy.png'
       },
       {
         name: 'Sreejith',
-        image: 'assets/Sreejith.png'
+        image: 'assets/sponsors/Sreejith.png'
       },
       {
         name: 'Manoj',
-        image: 'assets/manoj.png'
+        image: 'assets/sponsors/manoj.png'
       },
       {
         name: 'Nithya',
-        image: 'assets/Nithya.png'
+        image: 'assets/sponsors/Nithya.png'
       }
     ],
     [
       {
         name: 'Riya',
-        image: 'assets/Riya.png'
+        image: 'assets/sponsors/Riya.png'
       },
       {
         name: 'Amina',
-        image: 'assets/amina.png'
+        image: 'assets/sponsors/amina.png'
       },
       {
         name: 'Aneeka',
-        image: 'assets/Aneeka.png'
+        image: 'assets/sponsors/Aneeka.png'
       },
       {
         name: 'Gokul',
-        image: 'assets/Gokul.png'
+        image: 'assets/sponsors/Gokul.png'
       }
     ],
     [
       {
         name: 'Manu',
-        image: 'assets/Manu.png'
+        image: 'assets/sponsors/Manu.png'
       },
       {
         name: 'Vineesh',
-        image: 'assets/Vineesh.png'
+        image: 'assets/sponsors/Vineesh.png'
       },
       {
         name: 'Ramees',
-        image: 'assets/Ramees.png'
+        image: 'assets/sponsors/Ramees.png'
       },
       {
         name: 'Sujesh',
-        image: 'assets/Sujesh.png'
+        image: 'assets/sponsors/Sujesh.png'
       }
     ],
     [
       {
         name: 'Rahul',
-        image: 'assets/Rahul.png'
+        image: 'assets/sponsors/Rahul.png'
       },
       {
         name: 'Swathy',
-        image: 'assets/Swathy.png'
+        image: 'assets/sponsors/Swathy.png'
       },
       {
         name: 'Saurav',
-        image: 'assets/Saurav.png'
+        image: 'assets/sponsors/Saurav.png'
       },
       {
         name: 'Jessin',
-        image: 'assets/Jessin.png'
+        image: 'assets/sponsors/Jessin.png'
       }
     ]
   ];
