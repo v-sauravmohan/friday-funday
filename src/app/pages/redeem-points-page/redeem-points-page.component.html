@@ -24,8 +24,9 @@
                     Points key is <strong>required</strong>
                 </mat-error>
             </mat-form-field>
-            <button type="button" class="btn btn-primary font-weight-bold" [disabled]="!form.valid"
-                (click)="redeemKeys()">Redeem</button>
+            <div class="buton-container">
+                <button type="button" class=" button btn btn-primary font-weight-bold" [disabled]="!form.valid"
+                (click)="redeemKeys()">Redeem</button></div>
         </ng-container>
     </div>
     <div class="container" *ngIf="keyRedeemStatus.wasRedeemSucess">
